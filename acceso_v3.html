@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Acceso al Curso — AutoCAD 2D USA</title>
+  <meta name="robots" content="noindex,nofollow"/>
+  <meta name="theme-color" content="#0a0a0c"/>
+  <style>
+    :root {
+      --bg0:#050507;
+      --bg1:#0a0a0c;
+      --glass: rgba(255,255,255,.06);
+      --glass2: rgba(255,255,255,.085);
+      --stroke: rgba(255,255,255,.12);
+      --text:#f4f5f7;
+      --muted: rgba(244,245,247,.74);
+      --blue:#3b82f6;
+      --shadow: 0 14px 40px rgba(0,0,0,.55);
+      --r2: 28px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Display","SF Pro Text", Segoe UI, Roboto, Helvetica, Arial;
+      color:var(--text);
+      background:
+        radial-gradient(1200px 600px at 18% -10%, rgba(59,130,246,.28), transparent 58%),
+        radial-gradient(900px 520px at 88% 0%, rgba(34,197,94,.16), transparent 55%),
+        linear-gradient(180deg, var(--bg0), var(--bg1));
+      line-height:1.45;
+    }
+    .container{max-width:860px; margin:0 auto; padding:24px}
+    .glass{
+      border:1px solid var(--stroke);
+      background: linear-gradient(180deg, var(--glass2), var(--glass));
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-radius: var(--r2);
+      box-shadow: var(--shadow);
+      padding:18px;
+    }
+    h1{margin:0 0 8px; font-size:34px; letter-spacing:-.5px}
+    .muted{color:var(--muted); font-weight:760}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center; gap:10px;
+      padding:12px 16px; border-radius: 16px;
+      font-weight:900; cursor:pointer;
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.06);
+      color: var(--text);
+      text-decoration:none;
+      transition: transform .08s ease, background .15s ease, border-color .15s ease;
+    }
+    .btn:hover{transform: translateY(-1px); background: rgba(255,255,255,.09); border-color: rgba(255,255,255,.22)}
+    .btn.primary{
+      background: linear-gradient(135deg, rgba(59,130,246,1), rgba(59,130,246,.72));
+      border-color: rgba(59,130,246,.25);
+    }
+    .row{display:flex; gap:12px; flex-wrap:wrap; margin-top:14px}
+    .tinyLink{display:inline-flex; align-items:center; gap:8px; color: rgba(244,245,247,.70); font-weight:800; font-size:13px; opacity:.9}
+    .tinyLink:hover{opacity:1; text-decoration:underline}
+    .warn{margin-top:12px; font-size:13px; color:var(--muted); font-weight:760}
+    code{background: rgba(255,255,255,.08); padding:2px 8px; border-radius: 10px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="glass">
+      <h1>✅ Acceso al curso</h1>
+      <p class="muted">Gracias por tu compra. Abajo tenés el acceso al curso en Google Drive.</p>
+
+      <div class="row">
+        <a class="btn primary" href="https://drive.google.com/drive/folders/1-8qOD8MUuZC0osfzTpitRrWp9-vW8FA8?usp=drive_link" target="_blank" rel="noopener"><svg width='18' height='18' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M13 2L3 14h7l-1 8 12-14h-7l-1-6Z' fill='currentColor'/></svg> Acceder al curso (Google Drive)</a>
+        <a class="btn" href="index_v3.html"><svg width='18' height='18' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><rect x='3' y='4' width='18' height='16' rx='3' stroke='currentColor' stroke-width='2.2'/><path d='M8 4v16M3 10h18' stroke='currentColor' stroke-width='2' opacity='.7'/></svg> Volver</a>
+      </div>
+
+      <p class="warn">
+        Si Drive te muestra “Solicitar acceso”, entonces la carpeta no está pública.
+        Debe estar en <code>Anyone with the link</code> como <code>Viewer</code>.
+      </p>
+
+      <div style="margin-top:10px;">
+        <a class="tinyLink" href="https://wa.me/5491173733169" target="_blank" rel="noopener"><svg width='18' height='18' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20Z' stroke='currentColor' stroke-width='2.2'/><path d='M9.5 9a2.5 2.5 0 0 1 5 0c0 1.7-2.5 1.9-2.5 3.5' stroke='currentColor' stroke-width='2.2' stroke-linecap='round'/><path d='M12 17h.01' stroke='currentColor' stroke-width='3' stroke-linecap='round'/></svg> Ayuda (solo si es necesario)</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
